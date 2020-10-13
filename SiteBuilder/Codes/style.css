@@ -214,3 +214,65 @@ main {
 .solar #solarIcon {
   display: block;
 }
+body {
+  margin:0;
+  padding:0;
+  background-color:#333;
+  font-family:verdana;
+}
+
+.smoke {
+  position:absolute; 
+  top:10%;
+  lefT:50%;
+  transform:translate(-50%,-50%);
+}
+
+.smoke ul {
+  margin:0;
+  padding:0;
+  display:flex;
+  
+}
+
+.smoke ul li {
+  list-style:none;
+  font-weight:bold;
+  letter-spacing:10px;
+  filter:blur(1px);
+  color:#fff;
+  font-size:6em;
+  display: inline-block;
+}
+
+
+.smoke ul:hover li {
+  animation: smoke 2s linear forwards;
+}
+
+
+@keyframes smoke {
+  0% {
+      transform: rotate(0deg) translateY(0px);
+      opacity: 1;
+      filter:blur(1px);
+  }
+  100% {
+    transform: rotate(45deg) translateY(-200px);
+      opacity: 0;
+      filter:blur(20px);
+  }
+}
+
+.smoke ul li:nth-child(1){
+  animation-delay:0s
+}
+.smoke ul li:nth-child(2){
+  animation-delay:.3s
+}
+.smoke ul li:nth-child(3){
+  animation-delay:.6s
+}
+.smoke ul li:nth-child(4){
+  animation-delay:0.9s
+}
