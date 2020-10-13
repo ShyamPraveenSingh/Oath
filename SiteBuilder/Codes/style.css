@@ -224,9 +224,6 @@ body {
 }
 
 
-
-
-
 #videobox {
   display: block;
   height: 100vh;
@@ -238,8 +235,9 @@ body {
   
   }
 section{
-  margin-top: -16px;
-  margin-right: -15px;
+   margin-top: -16px; 
+ 
+  width: 101%;
   height:100vh;
   background: black;
 }
@@ -251,9 +249,9 @@ h1{
   transform: translateY(-50%);
   width: 90%;
   text-align: center;
-  color: #ddd;
+  color: cyan;
   font-size: 5em;
-  font-family: sans-serif;
+  font-family: 'El Messiri', sans-serif;
   letter-spacing: 1px;
 }
 h1 span{
