@@ -276,3 +276,7 @@ body {
 .smoke ul li:nth-child(4){
   animation-delay:0.9s
 }
+
+#zd{
+  z-index: 111;
+}
