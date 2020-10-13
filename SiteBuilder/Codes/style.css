@@ -228,26 +228,27 @@ body {
 
 
 #videobox {
-  /* display: block; */
-  height: 35%;
-  left: 06%;
+  display: block;
+  height: 100vh;
+  left: -10%;
   position: absolute;
-  top: -10%;
+  top: 0%;
   width: 100%;
   /* z-index: -1; */
   
   }
-/* section{
+section{
+  margin-top: -16px;
   height:100vh;
   background: black;
-} */
+}
 h1{
   margin: 0;
   padding:0;
   position: absolute;
-  top: 7%;
+  top: 50%;
   transform: translateY(-50%);
-  width: 100%;
+  width: 90%;
   text-align: center;
   color: #ddd;
   font-size: 5em;
@@ -284,6 +285,6 @@ h1 span:nth-child(4){
   animation-delay: 2.5s;
 }
 .contenttext{
-  margin-top: 139px;
+  margin-top: 110vh;
   /* background: white; */
 }
