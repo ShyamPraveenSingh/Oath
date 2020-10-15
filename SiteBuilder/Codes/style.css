@@ -9,7 +9,7 @@
 }
 
 body {
-  color: black;
+  color: white;
   background-color: white;
   margin: 0;
   padding: 0;
@@ -235,8 +235,8 @@ body {
   
   }
 section{
-   margin-top: -16px; 
- 
+
+  margin-top: -38.6em;
   width: 101%;
   height:100vh;
   background: black;
@@ -249,7 +249,7 @@ h1{
   transform: translateY(-50%);
   width: 90%;
   text-align: center;
-  color: cyan;
+  color: ;
   font-size: 5em;
   font-family: 'El Messiri', sans-serif;
   letter-spacing: 1px;
@@ -285,4 +285,7 @@ h1 span:nth-child(4){
 }
 .contenttext{
   font-size: 25;
+}
+img{
+  /* width: 25%; */
 }
